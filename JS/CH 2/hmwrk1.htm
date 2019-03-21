@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">	
+    <title>Calculate Area of a Rectangle</title>
+    <script>
+        var length;
+	var width;
+	var perimeter;
+	var area;
+	var length2;
+	var width2;
+
+	length = prompt("Enter length of rectangle");
+        length = parseInt(length);
+        width = prompt("Enter width of rectangle");
+        width = parseInt(width);
+        length2 = length * 2;
+        width2 = width * 2;
+        perimeter = length2 + width2;
+        perimeter = parseInt(perimeter);
+        area = length * width;
+        area = parseInt(area);
+    </script>
+</head>
+<body>
+    <script>
+        document.write("<h1>The Area and Perimeter App</h1>");
+        document.write("Length = " + length + "<br>" + "Width = " + width + "<br><br>" + "Area = " + area + "<br>" + "Perimeter = " + perimeter + "<br><br>");
+    </script>
+    <main>
+        <h1>Thanks for using the Area and Perimeter Application</h1>
+    </main>
+</body>
+</html>
